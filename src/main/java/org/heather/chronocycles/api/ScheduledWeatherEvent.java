@@ -1,4 +1,4 @@
-package io.github.pepe3012.chronocycles.api;
+package org.heather.chronocycles.api;
 
 import java.util.Objects;
 

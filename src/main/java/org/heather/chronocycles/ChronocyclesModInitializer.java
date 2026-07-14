@@ -1,7 +1,7 @@
-package io.github.pepe3012.chronocycles;
+package org.heather.chronocycles;
 
-import io.github.pepe3012.chronocycles.api.Chronocycles;
-import io.github.pepe3012.chronocycles.api.ChronocyclesGameRules;
+import org.heather.chronocycles.api.Chronocycles;
+import org.heather.chronocycles.api.ChronocyclesGameRules;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.resources.Identifier;

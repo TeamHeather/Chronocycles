@@ -1,8 +1,8 @@
-package io.github.pepe3012.chronocycles.api;
+package org.heather.chronocycles.api;
 
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.serialization.Codec;
-import io.github.pepe3012.chronocycles.ChronocyclesModInitializer;
+import org.heather.chronocycles.ChronocyclesModInitializer;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.flag.FeatureFlagSet;

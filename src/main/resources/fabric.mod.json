@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "io.github.pepe3012.chronocycles.ChronocyclesModInitializer"
+      "org.heather.chronocycles.ChronocyclesModInitializer"
     ]
   },
   "mixins": [
