@@ -1,3 +1,7 @@
+## Important
+
+The vanilla ADVANCE_TIME and ADVANCE_WEATHER gamerules are always set to false. The mod manages time and weather progression directly.
+
 ## Features
 
 * Change the speed of time.
