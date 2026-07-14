@@ -10,11 +10,8 @@
   "icon": "assets/chronocycles/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "io.github.pepe3012.chronocycles.client.ChronocyclesClient"
-    ],
     "main": [
-      "io.github.pepe3012.chronocycles.Chronocycles"
+      "io.github.pepe3012.chronocycles.ChronocyclesModInitializer"
     ]
   },
   "mixins": [

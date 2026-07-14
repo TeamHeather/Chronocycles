@@ -1,16 +1,21 @@
 package io.github.pepe3012.chronocycles;
 
+import io.github.pepe3012.chronocycles.api.Chronocycles;
+import io.github.pepe3012.chronocycles.api.ChronocyclesGameRules;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents;
 import net.minecraft.resources.Identifier;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public final class Chronocycles implements ModInitializer {
+public final class ChronocyclesModInitializer implements ModInitializer {
     public static final String MOD_ID = "chronocycles";
-    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
     @Override
     public void onInitialize() {
+        ChronocyclesGameRules.initialize();
+        ServerLifecycleEvents.SERVER_STARTED.register(Chronocycles::initialize);
         LOGGER.info("Initialized.");
     }
 
