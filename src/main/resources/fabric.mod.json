@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "chronocycles",
+  "version": "${version}",
+  "name": "Chronocycles",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/chronocycles/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.pepe3012.chronocycles.client.ChronocyclesClient"
+    ],
+    "main": [
+      "io.github.pepe3012.chronocycles.Chronocycles"
+    ]
+  },
+  "mixins": [
+    "chronocycles.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
